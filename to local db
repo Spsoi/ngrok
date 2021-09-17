@@ -1,1 +1,14 @@
 
+  команда 
+    ngrok tcp 27017
+    подставляем в файл .env
+    	без http или https
+  'default' => [
+		'host' => '8.tcp.ngrok.io:13708',
+		'username' => '',
+		'password' => '',
+		'db' => '',
+		'port' => 3306,
+		'prefix' => '',
+		'charset' => 'utf8'
+	],
